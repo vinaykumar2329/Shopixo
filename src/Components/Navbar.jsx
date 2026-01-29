@@ -11,6 +11,8 @@ const Navbar = () => {
 
       <div className="rightNav">
         <ul className='flex gap-3'>
+          <input type="search" placeholder='Search' className='bg-gray-700 px-1 rounded outline-none ' />
+
           <Link to='/'>Home</Link>
           <Link to='/men'>Men</Link>
           <Link to='/women'>Women</Link>
