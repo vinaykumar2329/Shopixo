@@ -1,10 +1,10 @@
  const Card = ({ item }) => {
   return (
-    <div className="w-[180px] flex-shrink-0 cursor-pointer bg-white text-black p-2 border-2">
+    <div className=" w-55 shrink-0 cursor-pointer bg-white text-black p-2 border-2">
       <img
         src={item.image}
-        alt=""
-        className="h-[240px] w-full object-contain"
+    
+        className=" h-60 w-full object-contain"
       />
 
       <p className="text-sm font-semibold mt-2 truncate">
